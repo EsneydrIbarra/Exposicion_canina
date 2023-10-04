@@ -6,10 +6,13 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import javax.servlet.ServletContext;
+import javax.servlet.http.Part;
 
 /**
  *
@@ -29,10 +32,9 @@ public class Persistencia
    public static void escritura(ArrayList<Perro> misPerros, ServletContext context)
            throws FileNotFoundException, IOException 
    {
-        //usamos ruta relativa para generar el archivo, lo hicimos con el fin de optimizar
+        //usamos ruta relativa para generar el archivo con formato .dat para la serializacion
         String rutaRelativa = "/data/archivo.dat";
         String rutaAbsoluta = context.getRealPath(rutaRelativa);
-        //creamos el archivo
         File archivo = new File(rutaAbsoluta);
 
         try 
@@ -86,11 +88,10 @@ public class Persistencia
             }
         } catch (IOException e)
         {
-            //alerta que saldra cuando el archivo no funcione como se esperaba
+            //manejo de excepcion que saldra cuando el archivo no funcione como se esperaba
             System.out.println("El archivo no pudo ser leido");
         }
     }   
-
     public static Perro buscarPerroPorNombre(String nombre) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
