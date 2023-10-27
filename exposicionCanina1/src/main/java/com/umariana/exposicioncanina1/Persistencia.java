@@ -33,7 +33,7 @@ public class Persistencia
            throws FileNotFoundException, IOException 
    {
         //usamos ruta relativa para generar el archivo con formato .dat para la serializacion
-        String rutaRelativa = "/data/archivo.dat";
+        String rutaRelativa = "/data/archivo.ser";
         String rutaAbsoluta = context.getRealPath(rutaRelativa);
         File archivo = new File(rutaAbsoluta);
 
@@ -61,7 +61,7 @@ public class Persistencia
     */
     public static void lectura(ArrayList<Perro> misPerros, ServletContext context) throws IOException, ClassNotFoundException {
         // Ruta relativa y absoluta del archivo de datos serializados
-        String rutaRelativa = "/data/archivo.dat";
+        String rutaRelativa = "/data/archivo.ser";
         String rutaAbsoluta = context.getRealPath(rutaRelativa);
         File archivo = new File(rutaAbsoluta);
         //if que analiza el archivo y segun sus datos lo interpreta, si no hay datos entra al sout
