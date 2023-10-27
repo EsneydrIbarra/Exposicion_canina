@@ -10,6 +10,7 @@
         <img src="imagenes/banner.jpg" style="width: 100%; height: auto;" class="d-inline-block align-top" alt="banner">    
     </a>
 </nav>
+
 <!-- clase contenedora -->    
 <!-- Clase container-fluid para que el contenedor se extienda a toda la pantalla -->
 <div style="font-family: 'Archivo Black';" class="container-fluid">
