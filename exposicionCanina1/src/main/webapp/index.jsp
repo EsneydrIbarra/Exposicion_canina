@@ -1,6 +1,5 @@
-<%@page import="com.umariana.exposicionCanina.Perro"%>
-<%@page import="com.umariana.exposicionCanina.Perro"%>
-<%@page import="com.umariana.exposicionCanina.Persistencia"%>
+<%@page import="com.umariana.exposicionCanina1.Persistencia"%>
+<%@page import="com.umariana.exposicionCanina1.Perro"%>
 <%@page import="java.util.ArrayList"%>
 
 <!-- include para incluir un archivo dentro de otro, en este caso el header.  -->

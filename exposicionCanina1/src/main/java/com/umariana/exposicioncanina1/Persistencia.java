@@ -1,4 +1,4 @@
-package com.umariana.exposicionCanina;
+package com.umariana.exposicionCanina1;
 //librerias importadas
 import java.io.EOFException;
 import java.io.File;

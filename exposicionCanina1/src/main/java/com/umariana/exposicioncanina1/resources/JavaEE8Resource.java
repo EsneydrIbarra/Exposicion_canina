@@ -1,4 +1,4 @@
-package com.umariana.exposicioncanina.resources;
+package com.umariana.exposicioncanina1.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

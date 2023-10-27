@@ -1,7 +1,7 @@
 package servlets;
 //librerias importadas
-import com.umariana.exposicionCanina.Perro;
-import com.umariana.exposicionCanina.Persistencia;
+import com.umariana.exposicionCanina1.Perro;
+import com.umariana.exposicionCanina1.Persistencia;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
