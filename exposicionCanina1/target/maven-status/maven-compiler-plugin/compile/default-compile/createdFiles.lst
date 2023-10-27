@@ -1,0 +1,6 @@
+com\umariana\exposicionCanina1\JAXRSConfiguration.class
+com\umariana\exposicionCanina1\Perro.class
+com\umariana\exposicionCanina1\Persistencia.class
+servlets\svEditarPerro.class
+com\umariana\exposicionCanina1\resources\JavaEE8Resource.class
+servlets\svCaninos.class
